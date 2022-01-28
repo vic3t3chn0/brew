@@ -1,0 +1,22 @@
+git clone https://github.com/Homebrew/brew homebrew
+
+https://gist.github.com/cielavenir/a26f82b06f969ffd9113ffbae22573d3
+
+sudo pkg inst node ruby sqlite3
+
+mkdir -p "$(rbenv root)"/plugins
+git clone https://github.com/rbenv/ruby-build.git
+ PREFIX=/usr/local ./ruby-build/install.sh
+ 
+ rbenv install 2.6.8
+ rbenv global 2.6.8
+ 
+ sudo rm /usr/sbin/ruby
+ sudo ln -s the rubyenv to /usr/sbin/ruby
+ 
+ pwd
+ ruby -v
+ 
+ then ./homebrew/bin/brew update
+ 
+ We need to patch the code to recognize as MacOS string
